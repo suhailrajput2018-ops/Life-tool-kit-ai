@@ -55,7 +55,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <meta name="google-site-verification" content="GOOGLE_VERIFICATION_PLACEHOLDER_KEY" />
+        <meta name="google-site-verification" content="GOOGLE_VERIFICATION_PLACEHOLDER_KEY" /> 
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5554704158829427"
+     crossorigin="anonymous"></script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
